@@ -354,3 +354,11 @@ display: block;}
     background-position: center;
     background-size: cover;
 }
+
+.container-for-icons {display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px; }
