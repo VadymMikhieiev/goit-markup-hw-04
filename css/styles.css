@@ -7,7 +7,7 @@
     --buton-color: #4d5ae5;
     --buton-background-color: #F4F4FD;
     --brands-color: #8e8f99;
-    --five-f-ccolor: #FFFFFF;
+    --five-f-color: #FFFFFF;
 }
 
 .list {list-style: none;
@@ -415,10 +415,10 @@ display: block;}
     color: var(--brands-color);}
 
 .link-logos-brands:hover {border-color: #404bbf;
-                        color: #404bbf;}
+                          color: #404bbf;}
 
 .link-logos-brands:focus {border-color: #404bbf;
-                        color: #404bbf;}
+                          color: #404bbf;}
 
 .link-logos-brands {fill: currentColor;}
 
@@ -435,8 +435,10 @@ display: block;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--five-f-ccolor:);
+    color: var(--five-f-color);
     margin-bottom: 16px;}
+
+.social-media-link {gap: 16px;}
 
 .list-footer-extra {display: flex;
     gap: 16px;}
@@ -447,14 +449,14 @@ display: block;}
 
 .footer-link-extra {width: 100%;
     height: 100%;
-    background-color:var(--buton-color:);
+    background-color:var(--buton-color);
     border-radius:50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.footer-link-extra:hover {background-color: #31d0aa;}
-.footer-link-extra:focus {background-color: #31d0aa;}
+.social-media-link:hover {background-color: #31d0aa;}
+.social-media-link:focus {background-color: #31d0aa;}
 
-.svg-footer {fill:var(--buton-background-color:);}
+.svg-footer {fill:var(--buton-background-color);}
