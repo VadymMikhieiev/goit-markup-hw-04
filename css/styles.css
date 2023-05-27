@@ -424,11 +424,12 @@ display: block;}
 
                     /* FOOTER EXTRA*/
 
-.footer-extra {display: flex;
-    align-items: baseline;}
 
-.div-footer-extra {margin-right: 120px;
-                    }
+
+.div-footer-extra {display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+     }
 
 .text-footeer-extra {font-weight: 500;
     font-size: 16px;
