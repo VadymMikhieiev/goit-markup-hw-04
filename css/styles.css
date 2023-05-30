@@ -426,6 +426,7 @@ display: block;}
                     /* FOOTER EXTRA*/
 
 
+                    
 .div-footer-extra {display: flex;
     align-items: baseline;
      }
@@ -441,10 +442,10 @@ display: block;}
 
 .social-media-settings {display: flex;
         justify-content: center;
-        gap: 24px;
+        gap: 16px;
     }
     
-.social-media {gap: 16px;}
+.social-media {gap: 24px;}
 
 .list-footer-extra {display: flex;
     gap: 16px;}
