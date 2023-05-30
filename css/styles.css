@@ -371,7 +371,7 @@ display: block;}
 
 .social-media {display: flex;
     justify-content: center;
-    gap: 24px;
+    gap: 16px;
 }
 
 .social-media-element {width: 40px;
