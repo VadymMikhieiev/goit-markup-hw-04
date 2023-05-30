@@ -309,8 +309,7 @@ display: block;}
                     margin-right:auto;}
 
 .hero {padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/people-office\ 1.jpg);}
+}
 
 .features {padding: 120px 0;}
 
@@ -482,3 +481,6 @@ display: block;}
 
 .social-footer-link:hover {background-color: #31d0aa;}
 .social-footer-link:focus {background-color: #31d0aa;}
+
+.hero {background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/people-office\ 1.jpg);}
