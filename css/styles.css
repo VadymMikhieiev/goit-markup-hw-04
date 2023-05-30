@@ -373,7 +373,7 @@ display: block;}
 
 .social-media {display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 24px;
 }
 
 .social-media-element {width: 40px;
@@ -482,8 +482,6 @@ display: block;}
 .social-footer-link:hover {background-color: #31d0aa;}
 .social-footer-link:focus {background-color: #31d0aa;}
 
-.hero {background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/people-office\ 1.jpg);}
 
   
 
