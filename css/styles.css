@@ -386,9 +386,6 @@ display: block;}
                     align-items: center;
                     justify-content: center;}
 
-.social-media-link:hover {background-color: #404bbf;}
-.social-media-link:focus {background-color: #404bbf;}
-
 .social-media-icon {fill: var(--buton-background-color);}
 
                      /* 5 section */
