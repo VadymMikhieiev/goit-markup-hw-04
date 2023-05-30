@@ -352,7 +352,7 @@ display: block;}
 
 .borders {box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);}
 
-.hero {background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg);
+.hero {background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     /*max-width: 1440px;*/
     background-repeat: no-repeat;
     background-position: center;
@@ -459,8 +459,8 @@ display: block;}
     justify-content: center;
 }
 
-.social-media-link:hover {background-color: #31d0aa;}
-.social-media-link:focus {background-color: #31d0aa;}
+.social-team-link:hover {background-color: #404bbf;;}
+.social-team-link:focus {background-color: #404bbf;;}
 
 .svg-footer {fill:var(--buton-background-color);}
 
