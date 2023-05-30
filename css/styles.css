@@ -439,6 +439,11 @@ display: block;}
     color: var(--five-f-color);
     margin-bottom: 16px;}
 
+.social-media-settings {display: flex;
+        justify-content: center;
+        gap: 24px;
+    }
+    
 .social-media {gap: 16px;}
 
 .list-footer-extra {display: flex;
