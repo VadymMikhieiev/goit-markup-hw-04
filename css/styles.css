@@ -425,6 +425,7 @@ display: block;}
 
 .link-logos-brands {fill: currentColor;}
 
+
                     /* FOOTER EXTRA*/
 
 
@@ -459,10 +460,13 @@ display: block;}
     justify-content: center;
 }
 
-.social-team-link:hover {background-color: #404bbf;;}
-.social-team-link:focus {background-color: #404bbf;;}
+.social-team-link:hover {background-color: #404bbf;}
+.social-team-link:focus {background-color: #404bbf;}
 
 .svg-footer {fill:var(--buton-background-color);}
+
+.social-footer-link:focus {background-color: #31d0aa;}
+.social-footer-link:hover {background-color: #31d0aa;}
 
 
                     /* Portfolio 4 Modul */
