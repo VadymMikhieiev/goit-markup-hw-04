@@ -422,10 +422,12 @@ img {display: block;}
                           color: #404bbf;
                           }
 
-.link-logos-brands:{fill: currentColor;}
+.icons-brand {fill: currentColor;}
 
+/*
 .link-logos-brands:hover .icons-brand, 
 .link-logos-brands:focus .icons-brand {fill: var(--border-color);}
+*/
 
 
 
