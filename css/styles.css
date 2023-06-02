@@ -29,6 +29,7 @@ a {text-decoration: none;
     clip: rect(0 0 0 0);
     overflow: hidden;}
 */
+
 .menu-list {font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -40,7 +41,12 @@ a {text-decoration: none;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--light-color);
+    padding: 24px 0;
+    display: block;
 }
+
+.menu-link:hover {color: #404BBF;}
+.menu-link:focus {color: #404BBF;}
 
 .button-portfolio:hover {color: #404bbf}
 .link:focus {color: #404bbf}
@@ -63,6 +69,9 @@ body {font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
     color: var(--link-color);
 }
+
+.e-mail-contact:hover {color: #404BBF;}
+.e-mail-contact:focus {color: #404BBF;}
 
     /* nav */
 
@@ -154,8 +163,9 @@ body {font-family: 'Roboto', sans-serif;
     letter-spacing: 0.02em;
     font-size: 16px;
     color: var(--link-color);
-    margin-bottom: 8px;
 }
+
+.otstup-v-tekste {margin-bottom: 8px;}
 
 .our-team {background-color: #F4F4FD;
     padding: 120px 0;}
@@ -296,9 +306,6 @@ img {display: block;}
 
 .logo-link-unik {margin-right: 76px;}
 
-.menu-link {padding: 24px 0;
-display: block;}
-
 .main-menu {align-items: center;
     justify-content: space-between;}
 
@@ -333,11 +340,12 @@ display: block;}
 .first-foto {width: calc((100% - 48px) / 3);}
 
 .worker {width: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px;}
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
 
 .worker-posada {padding: 32px 16px;
                 background-color: white;
-            text-align: center;}
+                text-align: center;}
 
 .footer {padding: 100px 0;
         }
@@ -361,8 +369,6 @@ display: block;}
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;}
-
-.worker {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
 
 .social-media {display: flex;
     justify-content: center;
@@ -410,13 +416,16 @@ display: block;}
 
 .link-logos-brands:hover {border-color: #404bbf;
                           color: #404bbf;
-                          background-color: #404bbf;}
+                          }
 
-.link-logos-brands:focus {border-color: #404bbf;
+.link-logos-brands:hover {border-color: #404bbf;
                           color: #404bbf;
-                          background-color: #404bbf;}
+                          }
 
-.link-logos-brands {fill: currentColor;}
+.link-logos-brands:{fill: currentColor;}
+
+.link-logos-brands:hover .icons-brand, 
+.link-logos-brands:focus .icons-brand {fill: var(--border-color);}
 
 
 
